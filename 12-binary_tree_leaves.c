@@ -1,9 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_trees_leavers - count number of leaves
+ * binary_tree_leaves - count number of leaves
  *
  * @tree: the root of the tree
+ * Return: the number of leaves
 */
 
 size_t binary_tree_leaves(const binary_tree_t *tree)
