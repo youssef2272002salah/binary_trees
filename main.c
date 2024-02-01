@@ -19,7 +19,7 @@ int main(void)
     binary_tree_insert_left(root, 45);
     binary_tree_insert_right(root->left, 50);
     binary_tree_insert_left(root->left->left, 10);
-    /*binary_tree_insert_left(root->left->left->left, 8);*/
+    binary_tree_insert_left(root->left->left->left, 8);
     binary_tree_print(root);
 
     /*balance = binary_tree_balance(root);
