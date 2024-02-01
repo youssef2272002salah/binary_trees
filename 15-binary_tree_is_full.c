@@ -1,10 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_trees_is_perfect - checks if a binary tree is perfect
+ * binary_tree_is_full - checks if a binary tree is full
  *
  * @tree : the root
- * */
+ * Return: 1 or 0
+*/
 
 int binary_tree_is_full(const binary_tree_t *tree)
 {
